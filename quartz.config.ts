@@ -19,8 +19,7 @@ const config: QuartzConfig = {
     baseUrl: "quartz.jzhao.xyz",
     ignorePatterns: [
       ".obsidian",
-      "*private",
-      "**/Private",
+      "**/*private*",
       "**/Private",
       "Desktop",
       "Family",
